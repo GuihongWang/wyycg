@@ -1,10 +1,8 @@
-# 网易云游戏自动签到
+# 自动签到
 
 请注意：关于LICENSE，在Apache-2.0的基础上增加一条：**禁止上传到CSDN等网站盈利，禁止放在某宝某鱼等平台贩卖**，否则官方找上门就**删库跑路**！
 
-**本脚本从[@GamerNoTitle](https://github.com/GamerNoTitle)出Fork而来，源仓库已于2021.5.19删除（我也不知道为什么本仓库会成为源仓库，理论上应该所有人都是源仓库才对），具体请参照[关于得知Github查封Action仓库的信息后我自行删除脚本的这档事 #2](https://github.com/GamerNoTitle/GamerNoTitle/discussions/2)**
-
-本脚本通过使用Github Action来进行[网易云游戏](https://cloudgame.webapp.163.com/newer.html?invite_code=2ZLPWY)签到操作，让你能够天天白嫖网易云游戏时长和云电脑！
+**本脚本从[@GamerNoTitle](https://github.com/GamerNoTitle)出Fork而来，源仓库已于2021.5.19删除
 
 喜欢就给我点个STAR吧！
 
@@ -16,8 +14,6 @@
 
 ## 赞助
 点击下面的Badge其中一个就可以跳转到相应页面，感谢老板的支持！
-
-<a href="https://afdian.net/@GamerNoTitle"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-GamerNoTitle-%238e8cd8?style=for-the-badge" alt="前往爱发电赞助" width=auto height=auto border="0" /></a> <a href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@master/img/Donate/WeChatPay.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98-GamerNoTitle-%2304BE02?style=for-the-badge" alt="使用微信赞助" width=auto height=auto border="0" /></a> <a href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@master/img/Donate/AliPay.jpg"><img src="https://img.shields.io/badge/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98-GamerNoTitle-%231678FF?style=for-the-badge" alt="使用支付宝赞助" width=auto height=auto border="0" /></a>
 
 ## 目录
 
@@ -31,9 +27,6 @@
 
 ### 变量添加
 
-1、Fork本仓库，按右上角的分支按钮（如图）
-
-![](https://upimage.alexhchu.com/2020/11/22/e9b4bcf8e6a1d.png)
 
 2、进入设置，设置变量`cookie`和`teleid` `teletoken` `SCKEY` `QQKEY` `PPKEY`（这五个可选，但是`teleid`和`teletoken`要用的话就得两个都要配置！）
 
@@ -169,17 +162,17 @@
 
 例子：
 ```
-    感谢使用来自GamerNoTitle的网易云游戏自动签到脚本！
+    感谢使用来自GamerNoTitle的自动签到脚本！
     今日签到结果如下：
     成功数量：0/1
     失败数量：1/1
     具体情况如下：
     第1个账号签到失败，回显状态码为400，具体错误信息如下：GL8B/hH+v9cYGsm/Ag8PAAwBAr/XztPNzsm/Ag8PChAEv9e/EhACD70QBgQLvREMAf4Wv8m/Ag8PChAEAAu/17/5EtID0tD5EtLWz9b5EtIBA8/5EtT/1AL5EtLP0M2/Gqc=
     GamerNoTitle: https://bili33.top
-    网易云游戏自动签到脚本: https://github.com/GamerNoTitle/wyycg-autocheckin
+    自动签到脚本: https://github.com/GamerNoTitle/wyycg-autocheckin
 ```
 
-首先你需要确认你当天是否已经签到过了才运行的脚本，如果确实先签了到再运行脚本，网易确实会返回400
+首先你需要确认你当天是否已经签到过了才运行的脚本，如果确实先签了到再运行脚本，确实会返回400
 
 目前也只发现这种情况会返回400，如果有其他情况你可以在issue跟我提出
 
@@ -240,4 +233,4 @@ telepot.exception.UnauthorizedError: ('Unauthorized', 401, {'ok': False, 'error_
 
 ## 免责声明
 
-使用本脚本造成的封号或任何违反相关法律法规造成的任何责任，由使用者自行承担，开发者不担负任何责任！
+使用本脚本造成的封号或任何违反相关法律法规造成的任何责任，由使用者自行承担！
