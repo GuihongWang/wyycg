@@ -6,7 +6,7 @@
 
 喜欢就给我点个STAR吧！
 
-签到时间是早上10点，如果有需要就自己修改.github/workflows/AutoSignin.yml中第12行的时间，时间遵循UTC时间，+8才是我们的时间
+签到时间是早上10点，如果有需要就自己修改.github/workflows/AutoSignin.yml中第13行的时间，时间遵循UTC时间，+8才是我们的时间
 
 **请不要使用非master分支脚本，他们通常正在开发新功能，会有BUG出现**
 
